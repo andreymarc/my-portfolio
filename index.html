@@ -43,7 +43,7 @@
     <!-- Profile Section -->
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/IMG_0811.png" alt="John Doe profile picture" />
+        <img src="./assets/IMG_0811.png" alt="my profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -280,81 +280,100 @@
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
 
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/forkify.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Forkify-WebApp</h2>
-            <div class="btn-container">
-              <button
-                class="btn color-2 project-btn"
-                onclick="location.href='https://github.com/andreymarc/forkify-course'"
-              >
-                Github
-              </button>
-              <button
-                class="btn color-2 project-btn"
-                onclick="location.href='https://github.com'"
-              >
-                Live Demo
-              </button>
-            </div>
+      <div class="projects-grid">
+        <!-- Project 1: Forkify-WebApp -->
+        <div class="project-card">
+          <img
+            src="./assets/forkify.png"
+            alt="Forkify-WebApp"
+            class="project-img"
+          />
+          <h3 class="project-title">Forkify-WebApp</h3>
+          <div class="btn-container">
+            <button
+              class="btn project-btn"
+              onclick="location.href='https://github.com/andreymarc/forkify-course'"
+            >
+              Github
+            </button>
+            <button
+              class="btn project-btn"
+              onclick="location.href='https://github.com'"
+            >
+              Live Demo
+            </button>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/my_notes_pro.jpg"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">
-              MyNotes-MobileApp
-            </h2>
-            <div class="btn-container">
-              <button
-                class="btn color-2 project-btn"
-                onclick="location.href='https://github.com/andreymarc/learningdart'"
-              >
-                Github
-              </button>
-              <button
-                class="btn color-2 project-btn"
-                onclick="location.href='https://github.com'"
-              >
-                Live Demo
-              </button>
-            </div>
+        </div>
+
+        <!-- Project 2: MyNotes-MobileApp -->
+        <div class="project-card">
+          <img
+            src="./assets/my_notes_pro.jpg"
+            alt="MyNotes-MobileApp"
+            class="project-img"
+          />
+          <h3 class="project-title">MyNotes-MobileApp</h3>
+          <div class="btn-container">
+            <button
+              class="btn project-btn"
+              onclick="location.href='https://github.com/andreymarc/learningdart'"
+            >
+              Github
+            </button>
+            <button
+              class="btn project-btn"
+              onclick="location.href='https://github.com'"
+            >
+              Live Demo
+            </button>
           </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/crm-logo.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">CRM-WebApp</h2>
-            <div class="btn-container">
-              <button
-                class="btn color-2 project-btn"
-                onclick="location.href='https://github.com/andreymarc/donation-crm-backend'"
-              >
-                Github
-              </button>
-              <button
-                class="btn color-2 project-btn"
-                onclick="location.href='https://github.com'"
-              >
-                Live Demo
-              </button>
-            </div>
+        </div>
+
+        <!-- Project 3: CRM-WebApp -->
+        <div class="project-card">
+          <img
+            src="./assets/crm-logo.png"
+            alt="CRM-WebApp"
+            class="project-img"
+          />
+          <h3 class="project-title">CRM-WebApp</h3>
+          <div class="btn-container">
+            <button
+              class="btn project-btn"
+              onclick="location.href='https://github.com/andreymarc/donation-crm-backend'"
+            >
+              Github
+            </button>
+            <button
+              class="btn project-btn"
+              onclick="location.href='https://github.com'"
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 4: Coding-App -->
+        <div class="project-card">
+          <img
+            src="./assets/codding-app.png"
+            alt="Coding-App"
+            class="project-img"
+          />
+          <h3 class="project-title">Coding-App</h3>
+          <div class="btn-container">
+            <button
+              class="btn project-btn"
+              onclick="location.href='https://github.com/andreymarc/coding-app'"
+            >
+              Github
+            </button>
+            <button
+              class="btn project-btn"
+              onclick="location.href='https://dainty-tapioca-a868c0.netlify.app/'"
+            >
+              Live Demo
+            </button>
           </div>
         </div>
       </div>
@@ -363,7 +382,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='./#contact'"
       />
     </section>
     <!-- CONTACT SECTION-->

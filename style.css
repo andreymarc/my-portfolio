@@ -209,11 +209,15 @@ section {
 }
 
 /* BUTTONS */
-.btn-container {
+/* .btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
-}
+} */
+ .btn-container {
+  margin-top: auto; /* Push buttons to the bottom */
+  padding: 1rem;
+ }
 
 .btn {
   font-weight: 600;
@@ -336,13 +340,18 @@ article {
   margin-top: 2rem;
 }
 
-.project-card {
+/* .project-card {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease;
-}
+} */
+ .project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure all cards have the same height */
+ }
 
 .project-card:hover {
   transform: translateY(-5px);
@@ -456,11 +465,18 @@ footer p {
   }
 
   /* New styles for project description */
-  .project-description {
+  /* .project-description {
     position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+  } */
+
+  .project-description {
+    flex-grow: 1; /* Allow description to grow and push buttons to bottom, */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .description-btn {
